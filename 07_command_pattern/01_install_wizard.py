@@ -15,4 +15,9 @@ class Wizard:
             else:
                 print("No Operation")
                 
-# if __name__ == '__main__':
+if __name__ == '__main__':
+    wizard = Wizard('python.gzip', '/usr/bin/')
+    
+    wizard.preferences({'python': True})
+    wizard.preferences({'java': False})
+    wizard.execute()

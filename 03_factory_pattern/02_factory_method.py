@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod
 
-# 추상 클래스
+# Section 클래스
 class Section(metaclass = ABCMeta):
     
     @abstractmethod
