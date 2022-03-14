@@ -22,8 +22,10 @@
 
 ### 목차
 
-1. [디자인 패턴 개요](#1장.-디자인-패턴-개요)
-2. 싱글톤 디자인 패턴
+---
+
+1. [디자인 패턴 개요](#디자인-패턴-개요)
+2. [싱글톤 디자인 패턴](https://github.com/HC-kang/Design_pattern_python/tree/master/02_singleton_pattern)
 3. 팩토리 패턴
 4. 퍼사드 패턴
 5. 프록시 패턴
