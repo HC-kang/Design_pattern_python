@@ -31,3 +31,8 @@ hc2.changeServer()
 print("Schedule health check for servers (2)..")
 for i in range(4):
     print("Checking", hc2._servers[i])
+    
+hc1._servers
+hc2._servers
+
+hc1 is hc2

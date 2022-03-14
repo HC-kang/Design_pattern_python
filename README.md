@@ -88,3 +88,10 @@
    1. 언어에 독립적
    2. 새로운 패턴이 지속적으로 등장
    3. 목적에따라 변경 가능
+
+### Remark
+
+#### 참고
+
+1. ['파이썬 디자인 패턴(체탄 기리다, 에이콘출판)'](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791161752440&orderClick=LAG&Kc=)
+2. https://gmlwjd9405.github.io/2018/07/04/class-diagram.html

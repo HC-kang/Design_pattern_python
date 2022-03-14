@@ -9,7 +9,7 @@ class MetaSingleton(type):
 class Database(metaclass = MetaSingleton):
     connection = None
     def connect(self):
-        if self.connection is None:
+        if not self.connection:
             self.connection = sqlite3.connect("db.sqlite3")
             self.cursorobj = self.connection.cursor()
         return self.cursorobj
@@ -21,4 +21,4 @@ db2 = Database().connect()
 print("Database Object DB1:", db1)
 print("Database Object DB2:", db2)
 
-print(db1 == db2)
+print(db1 is db2)
