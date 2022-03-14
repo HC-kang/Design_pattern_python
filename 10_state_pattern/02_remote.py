@@ -33,4 +33,6 @@ start = StartState()
 stop = StopState()
 
 context.setState(stop)
+context.setState(start)
+context.setState()
 context.doThis()
