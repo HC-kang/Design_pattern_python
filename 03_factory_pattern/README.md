@@ -2,7 +2,7 @@
 
 ### 1. 팩토리 디자인 패턴 개요
 
-![simple_factory_pattern](https://user-images.githubusercontent.com/81678439/158120463-e0b165dc-d356-427d-9d4b-5a40824a3a84.png)  
+![simple_factory_pattern](https://user-images.githubusercontent.com/81678439/158121513-4ad42b99-e264-477c-b9aa-d8609b823470.png)  
  심플 팩토리 패턴
 
 - ...

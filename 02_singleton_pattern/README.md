@@ -2,7 +2,7 @@
 
 ### 1. 싱글톤 디자인 패턴 개요
 
-![singleton_pattern](https://user-images.githubusercontent.com/81678439/158103374-8ddf452f-a7b0-4b71-985e-f95810f4d3cd.png)  
+![singleton_pattern](https://user-images.githubusercontent.com/81678439/158121596-4cbf435c-f7c5-4349-8b2a-a431af8f8028.png)  
  싱글톤 패턴의 목적
 
 - **단일객체 생성**

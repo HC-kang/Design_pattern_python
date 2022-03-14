@@ -26,14 +26,14 @@
 
 1. [디자인 패턴 개요](#디자인-패턴-개요)
 2. [싱글톤 디자인 패턴](https://github.com/HC-kang/Design_pattern_python/tree/master/02_singleton_pattern)
-3. 팩토리 패턴
-4. 퍼사드 패턴
-5. 프록시 패턴
-6. 옵서버 패턴
-7. 커맨드 패턴
-8. 템플릿 메소드 패턴
-9. MVC 패턴
-10. 상태 디자인 패턴
+3. [팩토리 패턴](https://github.com/HC-kang/Design_pattern_python/tree/master/03_factory_pattern)
+4. [퍼사드 패턴](https://github.com/HC-kang/Design_pattern_python/tree/master/04_facade_pattern)
+5. [프록시 패턴](https://github.com/HC-kang/Design_pattern_python/tree/master/05_proxy_pattern)
+6. [옵서버 패턴](https://github.com/HC-kang/Design_pattern_python/tree/master/06_observer_pattern)
+7. [커맨드 패턴](https://github.com/HC-kang/Design_pattern_python/tree/master/07_command_pattern)
+8. [템플릿 메소드 패턴](https://github.com/HC-kang/Design_pattern_python/tree/master/08_template_pattern)
+9. [MVC 패턴](https://github.com/HC-kang/Design_pattern_python/tree/master/09_MVC_pattern)
+10. [상태 디자인 패턴](https://github.com/HC-kang/Design_pattern_python/tree/master/10_state_pattern)
 11. 안티 패턴
 
 ---
@@ -91,9 +91,13 @@
    2. 새로운 패턴이 지속적으로 등장
    3. 목적에따라 변경 가능
 
+---
+
 ### Remark
 
 #### 참고
 
 1. ['파이썬 디자인 패턴(체탄 기리다, 에이콘출판)'](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791161752440&orderClick=LAG&Kc=)
 2. https://gmlwjd9405.github.io/2018/07/04/class-diagram.html
+
+---
