@@ -1,12 +1,13 @@
 from abc import ABCMeta, abstractmethod
 
-# Section 클래스
+# Product 인터페이스
 class Section(metaclass = ABCMeta):
     
     @abstractmethod
     def describe(self):
         pass
 
+# ConcreteProduct
 class PersonalSection(Section):
     def describe(self):
         print("Personal Section")
@@ -39,6 +40,7 @@ class Profile(metaclass = ABCMeta):
     def addSections(self, section):
         self.sections.append(section)
         
+# ConcreteCreator
 class linkedin(Profile):
     def createProfile(self):
         self.addSections(PersonalSection())

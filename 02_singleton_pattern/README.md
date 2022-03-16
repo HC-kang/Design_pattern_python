@@ -2,8 +2,11 @@
 
 ### 1. 싱글톤 디자인 패턴 개요
 
-![singleton_pattern](https://user-images.githubusercontent.com/81678439/158121596-4cbf435c-f7c5-4349-8b2a-a431af8f8028.png)  
- 싱글톤 패턴의 목적
+#### <싱글톤 패턴 UML 다이어그램>
+
+![singleton_pattern](https://user-images.githubusercontent.com/81678439/158491983-d043b6e6-a442-489b-b91f-98986738e0b8.png)
+
+#### 싱글톤 패턴의 목적
 
 - **단일객체 생성**
 - 전역객체 제공
