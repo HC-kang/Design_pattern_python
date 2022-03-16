@@ -14,9 +14,9 @@ class You:
         else:
             print("You: I should earn more.. ")
             
-# Subject
 from abc import ABCMeta, abstractmethod
 
+# Subject
 class Payment(metaclass = ABCMeta):
     
     @abstractmethod

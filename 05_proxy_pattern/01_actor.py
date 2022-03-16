@@ -12,7 +12,8 @@ class Actor:
         
     def getStatus(self):
         return self.isBusy
-    
+
+# Proxy    
 class Agent:
     def __init__(self):
         self.principal = None
@@ -24,6 +25,7 @@ class Agent:
         else:
             self.actor.available()
             
+# Client
 if __name__ == '__main__':
     r = Agent()
     r.work() 
