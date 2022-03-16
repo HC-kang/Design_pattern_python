@@ -1,3 +1,4 @@
+# Facade Class
 class EventManager:
     
     def __init__(self):
@@ -16,6 +17,7 @@ class EventManager:
         self.musician = Musician()
         self.musician.setMusicType()
 
+# Subsystem 1
 class Hotelier:
     def __init__(self):
         print("Arranging the Hotel for Marriage? --")
@@ -28,13 +30,15 @@ class Hotelier:
         if self.__isAvailable():
             print("Registered the Booking\n\n")
             
+# Subsystem 2
 class Florist:
     def __init__(self):
         print("Flower Decorations for the Event? --")
         
     def setFlowerRequirements(self):
         print("Carnations, Roses and Lilies would be used for Decorations\n\n")
-        
+
+# Subsystem 3        
 class Caterer:
     def __init__(self):
         print("Food Arrangements for the Event --")
@@ -42,6 +46,7 @@ class Caterer:
     def setCuisine(self):
         print("Chinese & Continental Cuisine to be served \n\n")
         
+# Subsystem 4
 class Musician:
     def __init__(self):
         print("Musical Arrangements for the Marriage --")
@@ -49,7 +54,7 @@ class Musician:
     def setMusicType(self):
         print("Jazz and Classical will be played \n\n")
         
-
+# Client
 class You:
     def __init__(self):
         print("You: Whoa! Marriage Arrangements?! ")
