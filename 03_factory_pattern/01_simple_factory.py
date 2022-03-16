@@ -7,11 +7,15 @@ class Animal(metaclass = ABCMeta):
 
 class Dog(Animal):
     def do_say(self):
-        print("멍 멍!")
+        print("멍멍!")
         
 class Cat(Animal):
     def do_say(self):
         print("야옹")
+        
+class Fox(Animal):
+    def do_say(self):
+        print("..?")
         
 ## forest factory
 class ForestFactory(object):
