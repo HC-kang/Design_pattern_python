@@ -53,7 +53,7 @@
 
 #### 01_observer.py
 
-- 생략
+- 생략(코드참조)
 
 #### 02_news_publisher.py
 
