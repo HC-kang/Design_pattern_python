@@ -10,6 +10,7 @@ class View:
         
 class Controller:
     def __init__(self):
+        print("Controller: Cnt Initialized!!")
         self.model = Model()
         self.view = View()
         

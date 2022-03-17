@@ -20,9 +20,9 @@ class IndexHandler(tornado.web.RequestHandler):
 class NewHandler(tornado.web.RequestHandler):
     def post(self):
         name = self.get_argument('name', None)
-        query = "create table if not exists task (id INTEGER \
-                 PRIMARY KEY, name TEXT, status NUMERIC) "
-        cur.execute(query)
+        # query = "create table if not exists task (id INTEGER \
+        #          PRIMARY KEY, name TEXT, status NUMERIC) "
+        # cur.execute(query)
         query = f"insert into task (name, status) \
                  values ('{name}', {1})"
         cur.execute(query)

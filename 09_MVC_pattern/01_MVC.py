@@ -7,12 +7,12 @@ class Model:
 
 class View:
     def list_services(self, services):
-        for svc in services:
-            print(svc, ' ')
+        for i, svc in enumerate(services, 1):
+            print(f'  {i}.',svc, ' ')
     
     def list_pricing(self, services):
         for svc in services:
-            print("For", Model.services[svc]['number'], 
+            print("  For", Model.services[svc]['number'], 
                   svc, 'message you pay $', Model.services[svc]['price'])
 
 class Controller:
@@ -30,7 +30,7 @@ class Controller:
     
 class Client:
     controller = Controller()
-    print("Services Provided")
+    print("[View]: Services Provided")
     controller.get_services()
-    print("Pricing for Service")
+    print("[View]: Pricing for Service")
     controller.get_pricing()
