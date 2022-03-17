@@ -1,5 +1,6 @@
 from abc import abstractmethod, ABCMeta
 
+# Abstract Pattern
 class State(metaclass = ABCMeta):
     
     @abstractmethod

@@ -1,3 +1,4 @@
+# Abstract Class
 class ComputerState():
     name = 'state'
     allowed = []
@@ -11,7 +12,8 @@ class ComputerState():
 
     def __str__(self):
         return self.name
-    
+
+# Concrete Class
 class Off(ComputerState):
     name = 'off'
     allowed = ['on']
@@ -28,8 +30,10 @@ class Hibernate(ComputerState):
     name = 'hibernate'
     allowed = ['on']
     
+# Context Class
 class Computer():
     def __init__(self, model = 'HP'):
+        print('I just bought a new computer!!')
         self.model = model
         self.state = Off()
         

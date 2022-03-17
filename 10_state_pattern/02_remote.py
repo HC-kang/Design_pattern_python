@@ -26,6 +26,12 @@ class TVContext(State):
     def doThis(self):
         self.state.doThis()
         
+    def volumeUpDown(self):
+        pass
+    
+    def channelUpDown(self):
+        pass
+        
 context = TVContext()
 context.getState()
 
