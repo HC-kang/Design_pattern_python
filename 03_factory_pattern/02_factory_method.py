@@ -27,6 +27,7 @@ class PublicationSection(Section):
 # Creator 추상 클래스
 class Profile(metaclass = ABCMeta): 
     def __init__(self):
+        print("Profile Initialized!")
         self.sections = []
         self.createProfile()
         

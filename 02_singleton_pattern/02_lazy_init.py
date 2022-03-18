@@ -43,4 +43,8 @@ class Singleton:
             cls.instance = Singleton()
         return cls.instance
 
+s1 = Singleton()
+s1.getInstance()
+s2 = Singleton()
+s2.getInstance()
 s1.instance.instance.instance.instance #...
